@@ -94,7 +94,7 @@ ImageHarmonization/
 | Loại file | Lưu trên GitHub? | Lưu trên Google Drive? | Ghi chú |
 |---|:---:|:---:|---|
 | Mã nguồn Python (`src/`, `scripts/`), `pyproject.toml`, `requirements.txt` | **CÓ** | Không bắt buộc | Nguồn chân lý (source of truth) là GitHub |
-| Notebooks sạch (`notebooks/01..06_*.ipynb`) | **CÓ** | Bản chạy Colab | Xóa output nặng trước khi commit nếu > 500 KB |
+| Notebooks sạch (`notebooks/01..09_*.ipynb`) | **CÓ** | Bản chạy Colab | Xóa `metadata.widgets` & ảnh base64 nặng trước khi commit |
 | Tài liệu `.md` & hình vẽ sơ đồ nhẹ (`docs/figures/*.png`) | **CÓ** | Bản sao tùy chọn | Nên giữ ảnh sơ đồ < 500 KB/ảnh |
 | Log nhẹ: `config.json`, `history.json`, `summary_*.csv`, `all_models_test_metrics.json` | **CÓ** (`results/`) | **CÓ** (`runs/`) | Tổng dung lượng chỉ ~ vài trăm KB |
 | Bộ dữ liệu ảnh & file `.zip` (`iHarmony4`, `ccHarmony`) | **KHÔNG** | **CÓ** | Đã chặn bởi `.gitignore` |
@@ -132,7 +132,7 @@ Mỗi thư mục `runs/<run_name>/` **bắt buộc** có đầy đủ các file 
 - **Ghi checkpoint nguyên tử (Atomic Save):** Luôn lưu vào file tạm `best.pt.tmp` rồi gọi `os.replace("best.pt.tmp", "best.pt")` (đã cài sẵn trong `iharmony.utils.atomic_torch_save`) để tránh hỏng file `.pt` nếu Colab mất kết nối đúng lúc đang ghi lên Drive.
 - **Giải nén về SSD cục bộ `/content/`:** Luôn giải nén `*_256.zip` vào `/content/iharmony4_256/` trước khi tạo `DataLoader`. **Tuyệt đối không** trỏ `DataLoader` đọc trực tiếp hàng chục nghìn ảnh từ `/content/drive/MyDrive/` (chậm gấp 10–20 lần và dễ bị Google Drive giới hạn quota I/O).
 - **Tránh tạo thư mục trùng:** Không lưu run mới vào `iHarmony4_dataset_resize_256/runs/` (nếu còn sót); mọi run đều tập trung về `ImageHarmonization/runs/`.
-- **Dọn tên notebook trên Drive:** Không để tích tụ nhiều file `"Bản sao của ..."` hoặc `"Copy of ..."`; chốt tên gọn theo số thứ tự `01_...` đến `06_...` khớp với thư mục `notebooks/` trên GitHub.
+- **Dọn tên notebook trên Drive:** Không để tích tụ nhiều file `"Bản sao của ..."` hoặc `"Copy of ..."`; chốt tên gọn theo số thứ tự `01_...` đến `09_...` khớp với thư mục `notebooks/` trên GitHub.
 
 ---
 
@@ -190,7 +190,7 @@ Mỗi thư mục `runs/<run_name>/` **bắt buộc** có đầy đủ các file 
    - Yêu cầu độ chính xác (`AMP FP16` hay bắt buộc `FP32` như RAIN / Transformer),
    - Khớp `strict=True` với `state_dict` checkpoint.
 3. **Huấn luyện / Nạp checkpoint:** Lưu vào `ImageHarmonization/runs/<ten_run>/` đầy đủ `best.pt`, `last.pt`, `config.json`, `history.json` (khớp đúng SHA-256 `fingerprint`).
-4. **Chạy đánh giá thống nhất:** Chạy `scripts/evaluate_all.py` hoặc `notebooks/06_evaluate_all_models.ipynb` trên toàn bộ **7.404 ảnh Test** (Blind Test).
+4. **Chạy đánh giá thống nhất:** Chạy `scripts/evaluate_all.py` hoặc `notebooks/09_evaluate_all_models.ipynb` trên toàn bộ **7.404 ảnh Test** (Blind Test).
 5. **Đồng bộ kết quả & tài liệu:**
    - Copy các file tổng hợp nhẹ (`*.json`, `summary_*.csv`) vào `results/evaluation_all_models/`.
    - Cập nhật bảng số liệu trong `README.md` và thêm sơ đồ + cấu hình vào `docs/architectures_and_configs.md`.

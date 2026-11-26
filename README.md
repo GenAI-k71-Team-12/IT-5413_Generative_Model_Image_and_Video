@@ -143,13 +143,16 @@ ImageHarmonization/
 │   ├── train_improved_unet.py                # CLI huấn luyện Improved U-Net v2 / v3
 │   ├── evaluate_all.py                       # CLI đánh giá đầy đủ tất cả 8+1 mô hình
 │   └── evaluate_rainnet_audit.py             # CLI kiểm định riêng RainNet (Blind vs Official GT-BG*)
-├── notebooks/                                # Bản notebook Colab gọn sạch để chạy trên T4/L4
-│   ├── 01_unet_full_l1.ipynb
-│   ├── 02_unet_masked_l1.ipynb
-│   ├── 03_unet_masked_l1_1patchgan.ipynb
-│   ├── 04_inference_rainnet.ipynb
-│   ├── 05_inference_ht_plus.ipynb
-│   └── 06_evaluate_all_models.ipynb          # Gồm cả Phần 7 kiểm định riêng RainNet
+├── notebooks/                                # 9 notebook Colab sạch khớp đủ 8 mô hình + đánh giá
+│   ├── 01_unet_full_l1.ipynb                 # Run 1: Baseline U-Net (Full L1)
+│   ├── 02_unet_masked_l1.ipynb               # Run 2: Baseline U-Net (Masked L1)
+│   ├── 03_unet_masked_l1_1patchgan.ipynb     # Run 3: U-Net + 1 PatchGAN (Branch B)
+│   ├── 04_unet_masked_l1_3patchgan.ipynb     # Run 4: U-Net + 3 Multi-Scale PatchGAN (Branch C)
+│   ├── 05_improved_unet_v2_hybrid.ipynb      # Run 5: Improved U-Net v2 (Hybrid)
+│   ├── 06_improved_unet_v3_dinov2_lab.ipynb  # Run 6: Improved U-Net v3 (DINOv2 + Lab)
+│   ├── 07_inference_rainnet.ipynb            # Run 7: RainNet Pretrained (CVPR 2021)
+│   ├── 08_inference_ht_plus.ipynb            # Run 8: Harmony Transformer HT+ (HT_2H9L)
+│   └── 09_evaluate_all_models.ipynb          # Đánh giá toàn diện 8+1 mô hình + Phần 7 Audit RainNet
 └── results/                                  # Log metrics, config & bảng tổng hợp (không chứa weights)
     ├── dataset_groups/
     ├── evaluation_all_models/                # JSON & CSV tổng hợp 8+1 mô hình + rainnet_audit/
