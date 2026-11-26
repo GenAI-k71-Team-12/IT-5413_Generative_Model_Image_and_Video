@@ -1,0 +1,20 @@
+{
+  "test_samples": 7404,
+  "processed_samples": 73146,
+  "train_grouped": true,
+  "image_root": "/content/iHarmony4_grouped_256",
+  "group_threshold_population": "All 7404 official test samples",
+  "mask_ratio_median": 0.047210693359375,
+  "deltaE76_q1": 11.872344652811686,
+  "deltaE76_q2": 18.14643732706706,
+  "rules": {
+    "small": "mask_ratio <= median",
+    "large": "mask_ratio > median",
+    "low": "input_deltaE76 <= q1",
+    "medium": "q1 < input_deltaE76 <= q2",
+    "high": "input_deltaE76 > q2"
+  },
+  "color_metric": "Mean per-pixel DeltaE76 between composite and target inside foreground; Lab D65",
+  "training_performed": false,
+  "inference_performed": false
+}

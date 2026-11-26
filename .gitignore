@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Large model weights, archives, and datasets (hosted on Google Drive)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local data & scratch outputs (root-level only)
+/data/
+/datasets/
+/iharmony4*/
+/checkpoints/
+/runs/
+/outputs/
+.DS_Store
