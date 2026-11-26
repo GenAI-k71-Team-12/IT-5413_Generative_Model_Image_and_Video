@@ -1,0 +1,1631 @@
+{
+  "0. Input Composite (No Harm)": {
+    "all": {
+      "n": 7404,
+      "MSE": 172.8993,
+      "fMSE": 1359.6684,
+      "PSNR": 31.4265,
+      "fPSNR": 19.0514,
+      "SSIM": 0.9731,
+      "fSSIM": 0.8244,
+      "fDeltaE76": 16.1341
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 70.2271,
+      "fMSE": 978.9948,
+      "PSNR": 33.5539,
+      "fPSNR": 19.975,
+      "SSIM": 0.9841,
+      "fSSIM": 0.852,
+      "fDeltaE76": 14.5109
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 345.5041,
+      "fMSE": 2036.0815,
+      "PSNR": 28.2803,
+      "fPSNR": 17.5575,
+      "SSIM": 0.9556,
+      "fSSIM": 0.7747,
+      "fDeltaE76": 18.5583
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 263.7427,
+      "fMSE": 1556.7774,
+      "PSNR": 28.2451,
+      "fPSNR": 18.1525,
+      "SSIM": 0.9621,
+      "fSSIM": 0.8245,
+      "fDeltaE76": 18.4495
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 110.4975,
+      "fMSE": 1406.033,
+      "PSNR": 33.8173,
+      "fPSNR": 19.1683,
+      "SSIM": 0.9726,
+      "fSSIM": 0.7431,
+      "fDeltaE76": 14.6204
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 28.4043,
+        "fMSE": 1167.382,
+        "PSNR": 35.875,
+        "fPSNR": 19.6094,
+        "SSIM": 0.99,
+        "fSSIM": 0.8313,
+        "fDeltaE76": 15.2831
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 317.4725,
+        "fMSE": 1552.0587,
+        "PSNR": 26.9755,
+        "fPSNR": 18.4932,
+        "SSIM": 0.9562,
+        "fSSIM": 0.8175,
+        "fDeltaE76": 16.9856
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 31.4766,
+        "fMSE": 360.6924,
+        "PSNR": 36.1214,
+        "fPSNR": 23.4008,
+        "SSIM": 0.9857,
+        "fSSIM": 0.8918,
+        "fDeltaE76": 8.7751
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 103.6059,
+        "fMSE": 939.2432,
+        "PSNR": 31.5175,
+        "fPSNR": 19.0803,
+        "SSIM": 0.9767,
+        "fSSIM": 0.843,
+        "fDeltaE76": 14.6609
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 383.6156,
+        "fMSE": 2779.0695,
+        "PSNR": 26.6405,
+        "fPSNR": 14.6732,
+        "SSIM": 0.9568,
+        "fSSIM": 0.7384,
+        "fDeltaE76": 24.9663
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 9.4603,
+        "fMSE": 351.9698,
+        "PSNR": 39.2827,
+        "fPSNR": 23.5382,
+        "SSIM": 0.9925,
+        "fSSIM": 0.8932,
+        "fDeltaE76": 8.6238
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 21.7845,
+        "fMSE": 905.2763,
+        "PSNR": 35.741,
+        "fPSNR": 19.2715,
+        "SSIM": 0.9906,
+        "fSSIM": 0.8455,
+        "fDeltaE76": 14.5727
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 59.0239,
+        "fMSE": 2459.993,
+        "PSNR": 31.8388,
+        "fPSNR": 15.1597,
+        "SSIM": 0.9862,
+        "fSSIM": 0.7396,
+        "fDeltaE76": 24.2508
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 58.5888,
+        "fMSE": 371.434,
+        "PSNR": 32.2285,
+        "fPSNR": 23.2315,
+        "SSIM": 0.9774,
+        "fSSIM": 0.8901,
+        "fDeltaE76": 8.9615
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 185.1624,
+        "fMSE": 973.1003,
+        "PSNR": 27.3076,
+        "fPSNR": 18.8898,
+        "SSIM": 0.9629,
+        "fSSIM": 0.8405,
+        "fDeltaE76": 14.7488
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 648.4958,
+        "fMSE": 3039.4492,
+        "PSNR": 22.3985,
+        "fPSNR": 14.2763,
+        "SSIM": 0.9328,
+        "fSSIM": 0.7374,
+        "fDeltaE76": 25.5503
+      }
+    },
+    "_meta": {
+      "epoch": "-",
+      "trainable_params_M": 0.0,
+      "total_params_M": 0.0,
+      "val_fMSE": null,
+      "slug": "00_input_composite",
+      "arch": "identity",
+      "checkpoint": null,
+      "batch_size": 32,
+      "amp": false,
+      "ms_per_img": 0.005,
+      "fps": 185688.1
+    }
+  },
+  "1. Baseline U-Net (Full L1)": {
+    "all": {
+      "n": 7404,
+      "MSE": 60.5895,
+      "fMSE": 586.0978,
+      "PSNR": 34.6087,
+      "fPSNR": 22.5525,
+      "SSIM": 0.9815,
+      "fSSIM": 0.8786,
+      "fDeltaE76": 11.6944
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 41.6994,
+      "fMSE": 616.4832,
+      "PSNR": 35.2523,
+      "fPSNR": 21.8864,
+      "SSIM": 0.9865,
+      "fSSIM": 0.8784,
+      "fDeltaE76": 12.2857
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 63.044,
+      "fMSE": 367.5939,
+      "PSNR": 35.025,
+      "fPSNR": 24.9453,
+      "SSIM": 0.9771,
+      "fSSIM": 0.8961,
+      "fDeltaE76": 8.8577
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 150.4598,
+      "fMSE": 953.6539,
+      "PSNR": 30.0251,
+      "fPSNR": 19.9819,
+      "SSIM": 0.9687,
+      "fSSIM": 0.8525,
+      "fDeltaE76": 15.9019
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 69.5504,
+      "fMSE": 867.9878,
+      "PSNR": 35.6571,
+      "fPSNR": 21.146,
+      "SSIM": 0.9738,
+      "fSSIM": 0.7608,
+      "fDeltaE76": 12.5253
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 15.3852,
+        "fMSE": 618.1875,
+        "PSNR": 38.0233,
+        "fPSNR": 22.1941,
+        "SSIM": 0.9915,
+        "fSSIM": 0.872,
+        "fDeltaE76": 12.0847
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 105.8182,
+        "fMSE": 553.9908,
+        "PSNR": 31.1922,
+        "fPSNR": 22.9111,
+        "SSIM": 0.9716,
+        "fSSIM": 0.8852,
+        "fDeltaE76": 11.3038
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 25.6591,
+        "fMSE": 301.3548,
+        "PSNR": 37.2269,
+        "fPSNR": 24.7428,
+        "SSIM": 0.9876,
+        "fSSIM": 0.9074,
+        "fDeltaE76": 8.2668
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 52.1788,
+        "fMSE": 526.2919,
+        "PSNR": 34.5207,
+        "fPSNR": 22.4296,
+        "SSIM": 0.9825,
+        "fSSIM": 0.8834,
+        "fDeltaE76": 11.4311
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 103.9306,
+        "fMSE": 930.6468,
+        "PSNR": 32.0785,
+        "fPSNR": 20.4851,
+        "SSIM": 0.9745,
+        "fSSIM": 0.8449,
+        "fDeltaE76": 15.3852
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 8.3548,
+        "fMSE": 308.1674,
+        "PSNR": 40.0344,
+        "fPSNR": 24.5819,
+        "SSIM": 0.9929,
+        "fSSIM": 0.9042,
+        "fDeltaE76": 8.419
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 13.9153,
+        "fMSE": 561.3564,
+        "PSNR": 37.9167,
+        "fPSNR": 21.9593,
+        "SSIM": 0.9918,
+        "fSSIM": 0.8771,
+        "fDeltaE76": 11.9168
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 25.6522,
+        "fMSE": 1062.0679,
+        "PSNR": 35.6719,
+        "fPSNR": 19.5223,
+        "SSIM": 0.9894,
+        "fSSIM": 0.8269,
+        "fDeltaE76": 16.7733
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 46.9687,
+        "fMSE": 292.9652,
+        "PSNR": 33.7695,
+        "fPSNR": 24.941,
+        "SSIM": 0.981,
+        "fSSIM": 0.9113,
+        "fDeltaE76": 8.0795
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 90.3184,
+        "fMSE": 491.3409,
+        "PSNR": 31.1356,
+        "fPSNR": 22.8984,
+        "SSIM": 0.9733,
+        "fSSIM": 0.8898,
+        "fDeltaE76": 10.947
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 167.8089,
+        "fMSE": 823.4018,
+        "PSNR": 29.1462,
+        "fPSNR": 21.2707,
+        "SSIM": 0.9623,
+        "fSSIM": 0.8597,
+        "fDeltaE76": 14.2524
+      }
+    },
+    "_meta": {
+      "epoch": 39,
+      "val_fMSE": 556.07,
+      "total_params_M": 7.76,
+      "trainable_params_M": 7.76,
+      "slug": "01_unet_full_l1",
+      "arch": "unet",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/unet_full_l1_all4_bs32_seed42/U-NET_Full_L1_checkpoint.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 4.676,
+      "fps": 213.9
+    }
+  },
+  "2. Baseline U-Net (Masked L1)": {
+    "all": {
+      "n": 7404,
+      "MSE": 41.6661,
+      "fMSE": 401.1573,
+      "PSNR": 35.9467,
+      "fPSNR": 24.1635,
+      "SSIM": 0.9845,
+      "fSSIM": 0.9055,
+      "fDeltaE76": 10.0457
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 26.7948,
+      "fMSE": 389.2966,
+      "PSNR": 36.8313,
+      "fPSNR": 23.7907,
+      "SSIM": 0.9889,
+      "fSSIM": 0.91,
+      "fDeltaE76": 10.3568
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 43.7362,
+      "fMSE": 280.9197,
+      "PSNR": 35.9653,
+      "fPSNR": 26.1274,
+      "SSIM": 0.9802,
+      "fSSIM": 0.9143,
+      "fDeltaE76": 7.7941
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 110.6573,
+      "fMSE": 703.3879,
+      "PSNR": 31.2768,
+      "fPSNR": 21.3427,
+      "SSIM": 0.9742,
+      "fSSIM": 0.8797,
+      "fDeltaE76": 14.0567
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 57.4369,
+      "fMSE": 854.2825,
+      "PSNR": 36.2276,
+      "fPSNR": 21.838,
+      "SSIM": 0.9764,
+      "fSSIM": 0.7795,
+      "fDeltaE76": 11.6243
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 11.1282,
+        "fMSE": 431.8142,
+        "PSNR": 39.1467,
+        "fPSNR": 23.7192,
+        "SSIM": 0.9923,
+        "fSSIM": 0.9007,
+        "fDeltaE76": 10.3352
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 72.2204,
+        "fMSE": 370.4839,
+        "PSNR": 32.7448,
+        "fPSNR": 24.6081,
+        "SSIM": 0.9766,
+        "fSSIM": 0.9103,
+        "fDeltaE76": 9.756
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 19.4438,
+        "fMSE": 232.2878,
+        "PSNR": 38.2028,
+        "fPSNR": 26.0208,
+        "SSIM": 0.9893,
+        "fSSIM": 0.9265,
+        "fDeltaE76": 7.3007
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 38.9012,
+        "fMSE": 379.2652,
+        "PSNR": 35.7326,
+        "fPSNR": 23.8851,
+        "SSIM": 0.985,
+        "fSSIM": 0.9083,
+        "fDeltaE76": 10.0296
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 66.6532,
+        "fMSE": 591.919,
+        "PSNR": 33.9046,
+        "fPSNR": 22.5848,
+        "SSIM": 0.9792,
+        "fSSIM": 0.8818,
+        "fDeltaE76": 12.8069
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 7.146,
+        "fMSE": 253.4568,
+        "PSNR": 40.7123,
+        "fPSNR": 25.6734,
+        "SSIM": 0.9934,
+        "fSSIM": 0.9222,
+        "fDeltaE76": 7.4695
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 10.4729,
+        "fMSE": 402.48,
+        "PSNR": 39.0181,
+        "fPSNR": 23.4424,
+        "SSIM": 0.9926,
+        "fSSIM": 0.9049,
+        "fDeltaE76": 10.3502
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 16.747,
+        "fMSE": 683.4484,
+        "PSNR": 37.3669,
+        "fPSNR": 21.6267,
+        "SSIM": 0.9908,
+        "fSSIM": 0.8698,
+        "fDeltaE76": 13.838
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 34.588,
+        "fMSE": 206.219,
+        "PSNR": 35.1125,
+        "fPSNR": 26.4485,
+        "SSIM": 0.9843,
+        "fSSIM": 0.9317,
+        "fDeltaE76": 7.0927
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 67.2375,
+        "fMSE": 356.1255,
+        "PSNR": 32.4576,
+        "fPSNR": 24.3262,
+        "SSIM": 0.9775,
+        "fSSIM": 0.9117,
+        "fDeltaE76": 9.7099
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 107.3788,
+        "fMSE": 517.2271,
+        "PSNR": 31.0792,
+        "fPSNR": 23.3667,
+        "SSIM": 0.9697,
+        "fSSIM": 0.8916,
+        "fDeltaE76": 11.9655
+      }
+    },
+    "_meta": {
+      "epoch": 39,
+      "val_fMSE": 384.83,
+      "total_params_M": 7.76,
+      "trainable_params_M": 7.76,
+      "slug": "02_unet_masked_l1",
+      "arch": "unet",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/unet_masked_l1_50ep_all4_bs32_seed42/best.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 4.785,
+      "fps": 209.0
+    }
+  },
+  "3. U-Net + 1 PatchGAN (Branch B)": {
+    "all": {
+      "n": 7404,
+      "MSE": 41.9751,
+      "fMSE": 401.4977,
+      "PSNR": 35.9159,
+      "fPSNR": 24.1231,
+      "SSIM": 0.9843,
+      "fSSIM": 0.9041,
+      "fDeltaE76": 10.1992
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 26.9763,
+      "fMSE": 389.3264,
+      "PSNR": 36.7982,
+      "fPSNR": 23.745,
+      "SSIM": 0.9888,
+      "fSSIM": 0.9088,
+      "fDeltaE76": 10.5222
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 43.4563,
+      "fMSE": 282.5808,
+      "PSNR": 35.9456,
+      "fPSNR": 26.0979,
+      "SSIM": 0.98,
+      "fSSIM": 0.9127,
+      "fDeltaE76": 7.9129
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 113.178,
+      "fMSE": 705.697,
+      "PSNR": 31.2198,
+      "fPSNR": 21.2838,
+      "SSIM": 0.9737,
+      "fSSIM": 0.8777,
+      "fDeltaE76": 14.2685
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 57.6476,
+      "fMSE": 830.922,
+      "PSNR": 36.2578,
+      "fPSNR": 21.9044,
+      "SSIM": 0.976,
+      "fSSIM": 0.7785,
+      "fDeltaE76": 11.5929
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 11.1203,
+        "fMSE": 430.414,
+        "PSNR": 39.1312,
+        "fPSNR": 23.6915,
+        "SSIM": 0.9923,
+        "fSSIM": 0.8996,
+        "fDeltaE76": 10.4759
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 72.8466,
+        "fMSE": 372.5659,
+        "PSNR": 32.6988,
+        "fPSNR": 24.555,
+        "SSIM": 0.9763,
+        "fSSIM": 0.9087,
+        "fDeltaE76": 9.9223
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 20.1396,
+        "fMSE": 240.1174,
+        "PSNR": 38.1223,
+        "fPSNR": 25.9152,
+        "SSIM": 0.9891,
+        "fSSIM": 0.9246,
+        "fDeltaE76": 7.4757
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 39.59,
+        "fMSE": 384.1102,
+        "PSNR": 35.6708,
+        "fPSNR": 23.812,
+        "SSIM": 0.9848,
+        "fSSIM": 0.9065,
+        "fDeltaE76": 10.223
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 66.1957,
+        "fMSE": 580.2656,
+        "PSNR": 33.9547,
+        "fPSNR": 22.6422,
+        "SSIM": 0.979,
+        "fSSIM": 0.8812,
+        "fDeltaE76": 12.8988
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 7.3394,
+        "fMSE": 262.1011,
+        "PSNR": 40.65,
+        "fPSNR": 25.5775,
+        "SSIM": 0.9933,
+        "fSSIM": 0.9202,
+        "fDeltaE76": 7.6349
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 10.5694,
+        "fMSE": 406.853,
+        "PSNR": 38.9839,
+        "fPSNR": 23.3962,
+        "SSIM": 0.9926,
+        "fSSIM": 0.9035,
+        "fDeltaE76": 10.5279
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 16.3758,
+        "fMSE": 663.2988,
+        "PSNR": 37.4298,
+        "fPSNR": 21.7032,
+        "SSIM": 0.9908,
+        "fSSIM": 0.8699,
+        "fDeltaE76": 13.9072
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 35.9026,
+        "fMSE": 213.0454,
+        "PSNR": 35.0095,
+        "fPSNR": 26.3309,
+        "SSIM": 0.9839,
+        "fSSIM": 0.9301,
+        "fDeltaE76": 7.2796
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 68.5166,
+        "fMSE": 361.4409,
+        "PSNR": 32.3684,
+        "fPSNR": 24.2265,
+        "SSIM": 0.977,
+        "fSSIM": 0.9096,
+        "fDeltaE76": 9.919
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 106.8508,
+        "fMSE": 512.5071,
+        "PSNR": 31.1189,
+        "fPSNR": 23.4084,
+        "SSIM": 0.9694,
+        "fSSIM": 0.8905,
+        "fDeltaE76": 12.0759
+      }
+    },
+    "_meta": {
+      "epoch": 38,
+      "val_fMSE": 388.14,
+      "total_params_M": 7.76,
+      "trainable_params_M": 7.76,
+      "slug": "03_unet_branchB_1patchgan",
+      "arch": "unet",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/unet_branchB_1patchgan_50ep_all4_bs32_seed42/best.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 4.806,
+      "fps": 208.1
+    }
+  },
+  "4. U-Net + 3 PatchGAN (Branch C)": {
+    "all": {
+      "n": 7404,
+      "MSE": 41.8656,
+      "fMSE": 400.3411,
+      "PSNR": 35.9306,
+      "fPSNR": 24.1426,
+      "SSIM": 0.9843,
+      "fSSIM": 0.9045,
+      "fDeltaE76": 10.1489
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 26.8667,
+      "fMSE": 387.7582,
+      "PSNR": 36.8176,
+      "fPSNR": 23.7706,
+      "SSIM": 0.9888,
+      "fSSIM": 0.9093,
+      "fDeltaE76": 10.4607
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 43.4242,
+      "fMSE": 282.1648,
+      "PSNR": 35.9513,
+      "fPSNR": 26.1076,
+      "SSIM": 0.98,
+      "fSSIM": 0.913,
+      "fDeltaE76": 7.8839
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 112.8075,
+      "fMSE": 703.9236,
+      "PSNR": 31.2383,
+      "fPSNR": 21.3042,
+      "SSIM": 0.9738,
+      "fSSIM": 0.8781,
+      "fDeltaE76": 14.2116
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 57.9094,
+      "fMSE": 834.8311,
+      "PSNR": 36.2435,
+      "fPSNR": 21.881,
+      "SSIM": 0.976,
+      "fSSIM": 0.7783,
+      "fDeltaE76": 11.5984
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 11.0923,
+        "fMSE": 429.088,
+        "PSNR": 39.1444,
+        "fPSNR": 23.7115,
+        "SSIM": 0.9923,
+        "fSSIM": 0.9,
+        "fDeltaE76": 10.4226
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 72.6555,
+        "fMSE": 371.5786,
+        "PSNR": 32.7151,
+        "fPSNR": 24.574,
+        "SSIM": 0.9763,
+        "fSSIM": 0.9091,
+        "fDeltaE76": 9.8749
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 20.0605,
+        "fMSE": 239.0904,
+        "PSNR": 38.1407,
+        "fPSNR": 25.9408,
+        "SSIM": 0.9891,
+        "fSSIM": 0.925,
+        "fDeltaE76": 7.4244
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 39.4512,
+        "fMSE": 382.5132,
+        "PSNR": 35.6882,
+        "fPSNR": 23.834,
+        "SSIM": 0.9848,
+        "fSSIM": 0.907,
+        "fDeltaE76": 10.1694
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 66.0851,
+        "fMSE": 579.4196,
+        "PSNR": 33.9629,
+        "fPSNR": 22.6531,
+        "SSIM": 0.9791,
+        "fSSIM": 0.8816,
+        "fDeltaE76": 12.8528
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 7.3122,
+        "fMSE": 260.9292,
+        "PSNR": 40.6654,
+        "fPSNR": 25.6024,
+        "SSIM": 0.9933,
+        "fSSIM": 0.9206,
+        "fDeltaE76": 7.5839
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 10.5291,
+        "fMSE": 404.8978,
+        "PSNR": 39.0006,
+        "fPSNR": 23.4199,
+        "SSIM": 0.9926,
+        "fSSIM": 0.9039,
+        "fDeltaE76": 10.4715
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 16.3604,
+        "fMSE": 662.4826,
+        "PSNR": 37.4363,
+        "fPSNR": 21.7132,
+        "SSIM": 0.9908,
+        "fSSIM": 0.8703,
+        "fDeltaE76": 13.8547
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 35.7595,
+        "fMSE": 212.1967,
+        "PSNR": 35.0317,
+        "fPSNR": 26.3575,
+        "SSIM": 0.984,
+        "fSSIM": 0.9305,
+        "fDeltaE76": 7.2279
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 68.2796,
+        "fMSE": 360.2011,
+        "PSNR": 32.3865,
+        "fPSNR": 24.2467,
+        "SSIM": 0.977,
+        "fSSIM": 0.91,
+        "fDeltaE76": 9.8683
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 106.6625,
+        "fMSE": 511.6368,
+        "PSNR": 31.1285,
+        "fPSNR": 23.42,
+        "SSIM": 0.9695,
+        "fSSIM": 0.8908,
+        "fDeltaE76": 12.0352
+      }
+    },
+    "_meta": {
+      "epoch": 38,
+      "val_fMSE": 386.84,
+      "total_params_M": 7.76,
+      "trainable_params_M": 7.76,
+      "slug": "04_unet_branchC_3patchgan",
+      "arch": "unet",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/unet_branchC_3patchgan_50ep_all4_bs32_seed42/best.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 4.783,
+      "fps": 209.1
+    }
+  },
+  "5. Improved U-Net v2 (Hybrid)": {
+    "all": {
+      "n": 7404,
+      "MSE": 40.3675,
+      "fMSE": 386.4785,
+      "PSNR": 36.154,
+      "fPSNR": 24.4363,
+      "SSIM": 0.985,
+      "fSSIM": 0.9093,
+      "fDeltaE76": 9.9144
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 26.155,
+      "fMSE": 380.3055,
+      "PSNR": 36.9443,
+      "fPSNR": 23.9487,
+      "SSIM": 0.9891,
+      "fSSIM": 0.9126,
+      "fDeltaE76": 10.3469
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 37.4714,
+      "fMSE": 249.8638,
+      "PSNR": 36.4457,
+      "fPSNR": 26.7282,
+      "SSIM": 0.9813,
+      "fSSIM": 0.9204,
+      "fDeltaE76": 7.3441
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 119.7202,
+      "fMSE": 707.8723,
+      "PSNR": 31.2708,
+      "fPSNR": 21.3637,
+      "SSIM": 0.9748,
+      "fSSIM": 0.8833,
+      "fDeltaE76": 14.1707
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 51.0723,
+      "fMSE": 803.1139,
+      "PSNR": 36.3686,
+      "fPSNR": 22.0439,
+      "SSIM": 0.9768,
+      "fSSIM": 0.783,
+      "fDeltaE76": 11.2304
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 10.98,
+        "fMSE": 421.6488,
+        "PSNR": 39.2616,
+        "fPSNR": 23.9269,
+        "SSIM": 0.9925,
+        "fSSIM": 0.9042,
+        "fDeltaE76": 10.2609
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 69.7709,
+        "fMSE": 351.2891,
+        "PSNR": 33.0447,
+        "fPSNR": 24.9459,
+        "SSIM": 0.9776,
+        "fSSIM": 0.9143,
+        "fDeltaE76": 9.5676
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 18.1133,
+        "fMSE": 225.0176,
+        "PSNR": 38.4035,
+        "fPSNR": 26.2924,
+        "SSIM": 0.9898,
+        "fSSIM": 0.9299,
+        "fDeltaE76": 7.1199
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 36.4704,
+        "fMSE": 364.2437,
+        "PSNR": 35.9865,
+        "fPSNR": 24.2093,
+        "SSIM": 0.9856,
+        "fSSIM": 0.9116,
+        "fDeltaE76": 9.8659
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 66.5188,
+        "fMSE": 570.1741,
+        "PSNR": 34.0721,
+        "fPSNR": 22.8071,
+        "SSIM": 0.9797,
+        "fSSIM": 0.8864,
+        "fDeltaE76": 12.7574
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 7.0769,
+        "fMSE": 254.9167,
+        "PSNR": 40.7631,
+        "fPSNR": 25.8092,
+        "SSIM": 0.9934,
+        "fSSIM": 0.9244,
+        "fDeltaE76": 7.3882
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 10.2591,
+        "fMSE": 395.9481,
+        "PSNR": 39.2017,
+        "fPSNR": 23.7375,
+        "SSIM": 0.9927,
+        "fSSIM": 0.9075,
+        "fDeltaE76": 10.2385
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 16.5744,
+        "fMSE": 654.9694,
+        "PSNR": 37.4842,
+        "fPSNR": 21.8257,
+        "SSIM": 0.991,
+        "fSSIM": 0.8758,
+        "fDeltaE76": 13.8139
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 31.7043,
+        "fMSE": 188.1979,
+        "PSNR": 35.4977,
+        "fPSNR": 26.8875,
+        "SSIM": 0.9853,
+        "fSSIM": 0.9367,
+        "fDeltaE76": 6.7895
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 62.5969,
+        "fMSE": 332.6419,
+        "PSNR": 32.7817,
+        "fPSNR": 24.6795,
+        "SSIM": 0.9785,
+        "fSSIM": 0.9156,
+        "fDeltaE76": 9.4944
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 107.2755,
+        "fMSE": 500.9777,
+        "PSNR": 31.2877,
+        "fPSNR": 23.6079,
+        "SSIM": 0.9705,
+        "fSSIM": 0.895,
+        "fDeltaE76": 11.8952
+      }
+    },
+    "_meta": {
+      "epoch": 22,
+      "val_fMSE": 382.23,
+      "total_params_M": 15.54,
+      "trainable_params_M": 15.54,
+      "slug": "05_improved_unet_v2_hybrid",
+      "arch": "improved_unet_v2",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/improved_unet_v2_hybrid_probe10ep_bs32_seed42/best.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 8.412,
+      "fps": 118.9
+    }
+  },
+  "6. Improved U-Net v3 (DINOv2 + Lab)": {
+    "all": {
+      "n": 7404,
+      "MSE": 37.0105,
+      "fMSE": 369.636,
+      "PSNR": 36.2874,
+      "fPSNR": 24.5814,
+      "SSIM": 0.9854,
+      "fSSIM": 0.9113,
+      "fDeltaE76": 9.6665
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 24.3823,
+      "fMSE": 359.9813,
+      "PSNR": 37.1068,
+      "fPSNR": 24.144,
+      "SSIM": 0.9894,
+      "fSSIM": 0.9152,
+      "fDeltaE76": 9.9846
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 33.5216,
+      "fMSE": 252.7564,
+      "PSNR": 36.4979,
+      "fPSNR": 26.7522,
+      "SSIM": 0.9818,
+      "fSSIM": 0.921,
+      "fDeltaE76": 7.3996
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 110.0728,
+      "fMSE": 667.3506,
+      "PSNR": 31.4573,
+      "fPSNR": 21.5604,
+      "SSIM": 0.9754,
+      "fSSIM": 0.8857,
+      "fDeltaE76": 13.7537
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 45.4851,
+      "fMSE": 725.2982,
+      "PSNR": 36.5541,
+      "fPSNR": 22.2216,
+      "SSIM": 0.9775,
+      "fSSIM": 0.7871,
+      "fDeltaE76": 10.7939
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 10.5754,
+        "fMSE": 406.0223,
+        "PSNR": 39.3864,
+        "fPSNR": 24.0766,
+        "SSIM": 0.9925,
+        "fSSIM": 0.9062,
+        "fDeltaE76": 9.9884
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 63.4598,
+        "fMSE": 333.23,
+        "PSNR": 33.1868,
+        "fPSNR": 25.0866,
+        "SSIM": 0.9783,
+        "fSSIM": 0.9165,
+        "fDeltaE76": 9.3445
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 16.979,
+        "fMSE": 218.1214,
+        "PSNR": 38.4802,
+        "fPSNR": 26.3739,
+        "SSIM": 0.9899,
+        "fSSIM": 0.9306,
+        "fDeltaE76": 7.0432
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 34.1316,
+        "fMSE": 347.4138,
+        "PSNR": 36.1207,
+        "fPSNR": 24.361,
+        "SSIM": 0.986,
+        "fSSIM": 0.9144,
+        "fDeltaE76": 9.6394
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 59.9209,
+        "fMSE": 543.3727,
+        "PSNR": 34.2614,
+        "fPSNR": 23.0094,
+        "SSIM": 0.9803,
+        "fSSIM": 0.8889,
+        "fDeltaE76": 12.3169
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 6.9509,
+        "fMSE": 245.7555,
+        "PSNR": 40.8757,
+        "fPSNR": 25.9503,
+        "SSIM": 0.9935,
+        "fSSIM": 0.9254,
+        "fDeltaE76": 7.2695
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 9.9063,
+        "fMSE": 380.7319,
+        "PSNR": 39.3077,
+        "fPSNR": 23.8619,
+        "SSIM": 0.9928,
+        "fSSIM": 0.9103,
+        "fDeltaE76": 9.9935
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 15.7702,
+        "fMSE": 630.9467,
+        "PSNR": 37.6448,
+        "fPSNR": 22.0138,
+        "SSIM": 0.991,
+        "fSSIM": 0.878,
+        "fDeltaE76": 13.3218
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 29.3283,
+        "fMSE": 184.0909,
+        "PSNR": 35.5303,
+        "fPSNR": 26.8954,
+        "SSIM": 0.9856,
+        "fSSIM": 0.937,
+        "fDeltaE76": 6.7647
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 58.2784,
+        "fMSE": 314.2036,
+        "PSNR": 32.944,
+        "fPSNR": 24.8586,
+        "SSIM": 0.9792,
+        "fSSIM": 0.9186,
+        "fDeltaE76": 9.2865
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 95.9497,
+        "fMSE": 471.9088,
+        "PSNR": 31.5003,
+        "fPSNR": 23.8219,
+        "SSIM": 0.9715,
+        "fSSIM": 0.8978,
+        "fDeltaE76": 11.4968
+      }
+    },
+    "_meta": {
+      "epoch": 30,
+      "val_fMSE": 361.33,
+      "total_params_M": 33.29,
+      "trainable_params_M": 11.23,
+      "slug": "06_improved_unet_v3_dinov2_lab",
+      "arch": "improved_unet_v3",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/improved_unet_v3_dinov2_lab_30ep_bs32_seed42/best.pt",
+      "batch_size": 32,
+      "amp": true,
+      "ms_per_img": 10.114,
+      "fps": 98.9
+    }
+  },
+  "7. RainNet Pretrained (CVPR 2021)": {
+    "all": {
+      "n": 7404,
+      "MSE": 58.0947,
+      "fMSE": 619.1768,
+      "PSNR": 34.2703,
+      "fPSNR": 22.094,
+      "SSIM": 0.9806,
+      "fSSIM": 0.8654,
+      "fDeltaE76": 11.9498
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 39.2596,
+      "fMSE": 634.2069,
+      "PSNR": 35.1065,
+      "fPSNR": 21.6666,
+      "SSIM": 0.9863,
+      "fSSIM": 0.8697,
+      "fDeltaE76": 12.422
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 61.3622,
+      "fMSE": 431.4086,
+      "PSNR": 34.1906,
+      "fPSNR": 23.8733,
+      "SSIM": 0.9746,
+      "fSSIM": 0.8737,
+      "fDeltaE76": 9.6454
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 146.4328,
+      "fMSE": 967.4245,
+      "PSNR": 30.0917,
+      "fPSNR": 20.0237,
+      "SSIM": 0.9683,
+      "fSSIM": 0.8443,
+      "fDeltaE76": 15.2146
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 61.6231,
+      "fMSE": 1016.5964,
+      "PSNR": 34.6509,
+      "fPSNR": 19.8514,
+      "SSIM": 0.9733,
+      "fSSIM": 0.7252,
+      "fDeltaE76": 13.84
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 16.8776,
+        "fMSE": 706.078,
+        "PSNR": 37.4322,
+        "fPSNR": 21.4019,
+        "SSIM": 0.991,
+        "fSSIM": 0.8533,
+        "fDeltaE76": 12.8484
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 99.3342,
+        "fMSE": 532.2287,
+        "PSNR": 31.1067,
+        "fPSNR": 22.7865,
+        "SSIM": 0.9703,
+        "fSSIM": 0.8776,
+        "fDeltaE76": 11.0507
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 26.8127,
+        "fMSE": 380.9647,
+        "PSNR": 36.5375,
+        "fPSNR": 23.8178,
+        "SSIM": 0.9867,
+        "fSSIM": 0.8903,
+        "fDeltaE76": 9.1381
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 49.4718,
+        "fMSE": 555.4454,
+        "PSNR": 34.2945,
+        "fPSNR": 22.1265,
+        "SSIM": 0.9819,
+        "fSSIM": 0.8731,
+        "fDeltaE76": 11.6966
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 97.9997,
+        "fMSE": 921.1204,
+        "PSNR": 31.979,
+        "fPSNR": 20.3378,
+        "SSIM": 0.9733,
+        "fSSIM": 0.8329,
+        "fDeltaE76": 15.0146
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 11.1013,
+        "fMSE": 449.8581,
+        "PSNR": 38.9042,
+        "fPSNR": 23.0674,
+        "SSIM": 0.9922,
+        "fSSIM": 0.8784,
+        "fDeltaE76": 9.8664
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 15.0885,
+        "fMSE": 639.7133,
+        "PSNR": 37.4773,
+        "fPSNR": 21.3853,
+        "SSIM": 0.9914,
+        "fSSIM": 0.8617,
+        "fDeltaE76": 12.7186
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 25.959,
+        "fMSE": 1094.4755,
+        "PSNR": 35.5744,
+        "fPSNR": 19.3748,
+        "SSIM": 0.989,
+        "fSSIM": 0.8132,
+        "fDeltaE76": 16.6549
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 46.1607,
+        "fMSE": 296.125,
+        "PSNR": 33.623,
+        "fPSNR": 24.7419,
+        "SSIM": 0.98,
+        "fSSIM": 0.905,
+        "fDeltaE76": 8.2411
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 83.7438,
+        "fMSE": 471.4503,
+        "PSNR": 31.122,
+        "fPSNR": 22.8653,
+        "SSIM": 0.9724,
+        "fSSIM": 0.8845,
+        "fDeltaE76": 10.678
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 156.7879,
+        "fMSE": 779.6554,
+        "PSNR": 29.0451,
+        "fPSNR": 21.1235,
+        "SSIM": 0.9605,
+        "fSSIM": 0.849,
+        "fDeltaE76": 13.6761
+      }
+    },
+    "_meta": {
+      "epoch": "Pre",
+      "val_fMSE": null,
+      "total_params_M": 54.76,
+      "trainable_params_M": 54.76,
+      "slug": "07_rainnet_pretrained",
+      "arch": "rainnet",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/RainNet_Pretrained/RainNet_net_G_last.pth",
+      "batch_size": 32,
+      "amp": false,
+      "ms_per_img": 6.931,
+      "fps": 144.3
+    }
+  },
+  "8. HT+ Pretrained (HT_2H9L)": {
+    "all": {
+      "n": 7404,
+      "MSE": 37.5557,
+      "fMSE": 394.6631,
+      "PSNR": 36.0885,
+      "fPSNR": 24.3078,
+      "SSIM": 0.9847,
+      "fSSIM": 0.9044,
+      "fDeltaE76": 9.5736
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 22.1358,
+      "fMSE": 366.4249,
+      "PSNR": 37.1795,
+      "fPSNR": 24.2005,
+      "SSIM": 0.9894,
+      "fSSIM": 0.9118,
+      "fDeltaE76": 9.5556
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 49.2096,
+      "fMSE": 340.4149,
+      "PSNR": 35.5219,
+      "fPSNR": 25.5584,
+      "SSIM": 0.9791,
+      "fSSIM": 0.9047,
+      "fDeltaE76": 8.2798
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 84.6724,
+      "fMSE": 618.2647,
+      "PSNR": 31.9171,
+      "fPSNR": 22.0213,
+      "SSIM": 0.9762,
+      "fSSIM": 0.8857,
+      "fDeltaE76": 12.7523
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 51.5309,
+      "fMSE": 792.9957,
+      "PSNR": 36.1274,
+      "fPSNR": 21.6849,
+      "SSIM": 0.9764,
+      "fSSIM": 0.778,
+      "fDeltaE76": 11.3784
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 11.6407,
+        "fMSE": 449.6524,
+        "PSNR": 39.1048,
+        "fPSNR": 23.6782,
+        "SSIM": 0.9922,
+        "fSSIM": 0.8979,
+        "fDeltaE76": 10.0216
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 63.4848,
+        "fMSE": 339.6441,
+        "PSNR": 33.0707,
+        "fPSNR": 24.9378,
+        "SSIM": 0.9771,
+        "fSSIM": 0.9109,
+        "fDeltaE76": 9.1254
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 19.4946,
+        "fMSE": 245.4063,
+        "PSNR": 38.2061,
+        "fPSNR": 26.0217,
+        "SSIM": 0.9894,
+        "fSSIM": 0.9258,
+        "fDeltaE76": 7.1068
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 33.1717,
+        "fMSE": 370.3189,
+        "PSNR": 36.0153,
+        "fPSNR": 24.1937,
+        "SSIM": 0.9856,
+        "fSSIM": 0.9085,
+        "fDeltaE76": 9.4164
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 60.0008,
+        "fMSE": 568.2641,
+        "PSNR": 34.0443,
+        "fPSNR": 22.708,
+        "SSIM": 0.9791,
+        "fSSIM": 0.8789,
+        "fDeltaE76": 12.1976
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 7.7696,
+        "fMSE": 274.2496,
+        "PSNR": 40.5693,
+        "fPSNR": 25.5057,
+        "SSIM": 0.9933,
+        "fSSIM": 0.9202,
+        "fDeltaE76": 7.3841
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 11.3721,
+        "fMSE": 433.328,
+        "PSNR": 38.9878,
+        "fPSNR": 23.4342,
+        "SSIM": 0.9924,
+        "fSSIM": 0.9011,
+        "fDeltaE76": 10.0593
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 16.6932,
+        "fMSE": 683.2052,
+        "PSNR": 37.4362,
+        "fPSNR": 21.7046,
+        "SSIM": 0.9907,
+        "fSSIM": 0.8671,
+        "fDeltaE76": 13.219
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 33.9336,
+        "fMSE": 209.8868,
+        "PSNR": 35.2959,
+        "fPSNR": 26.6571,
+        "SSIM": 0.9847,
+        "fSSIM": 0.9327,
+        "fDeltaE76": 6.7653
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 54.9007,
+        "fMSE": 307.5137,
+        "PSNR": 33.0524,
+        "fPSNR": 24.9507,
+        "SSIM": 0.9787,
+        "fSSIM": 0.9159,
+        "fDeltaE76": 8.7756
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 95.3416,
+        "fMSE": 474.4674,
+        "PSNR": 31.2763,
+        "fPSNR": 23.5268,
+        "SSIM": 0.9696,
+        "fSSIM": 0.8885,
+        "fDeltaE76": 11.3642
+      }
+    },
+    "_meta": {
+      "epoch": "Pre",
+      "val_fMSE": null,
+      "total_params_M": 4.77,
+      "trainable_params_M": 4.77,
+      "slug": "08_ht_plus_pretrained",
+      "arch": "ht_plus",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/ht_plus_pretrained/HT_2H9L_allihd_latest_net_G.pth",
+      "batch_size": 16,
+      "amp": false,
+      "ms_per_img": 69.872,
+      "fps": 14.3
+    }
+  }
+}

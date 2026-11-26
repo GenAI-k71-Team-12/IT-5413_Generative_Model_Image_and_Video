@@ -1,0 +1,714 @@
+{
+  "R1. RainNet — Blind (KHÔNG gian lận)": {
+    "all": {
+      "n": 7404,
+      "MSE": 58.0947,
+      "fMSE": 619.1768,
+      "PSNR": 34.2703,
+      "fPSNR": 22.094,
+      "SSIM": 0.9806,
+      "fSSIM": 0.8654,
+      "fDeltaE76": 11.9498
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 39.2596,
+      "fMSE": 634.2069,
+      "PSNR": 35.1065,
+      "fPSNR": 21.6666,
+      "SSIM": 0.9863,
+      "fSSIM": 0.8697,
+      "fDeltaE76": 12.422
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 61.3622,
+      "fMSE": 431.4086,
+      "PSNR": 34.1906,
+      "fPSNR": 23.8733,
+      "SSIM": 0.9746,
+      "fSSIM": 0.8737,
+      "fDeltaE76": 9.6454
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 146.4328,
+      "fMSE": 967.4245,
+      "PSNR": 30.0917,
+      "fPSNR": 20.0237,
+      "SSIM": 0.9683,
+      "fSSIM": 0.8443,
+      "fDeltaE76": 15.2146
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 61.6231,
+      "fMSE": 1016.5964,
+      "PSNR": 34.6509,
+      "fPSNR": 19.8514,
+      "SSIM": 0.9733,
+      "fSSIM": 0.7252,
+      "fDeltaE76": 13.84
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 16.8776,
+        "fMSE": 706.078,
+        "PSNR": 37.4322,
+        "fPSNR": 21.4019,
+        "SSIM": 0.991,
+        "fSSIM": 0.8533,
+        "fDeltaE76": 12.8484
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 99.3342,
+        "fMSE": 532.2287,
+        "PSNR": 31.1067,
+        "fPSNR": 22.7865,
+        "SSIM": 0.9703,
+        "fSSIM": 0.8776,
+        "fDeltaE76": 11.0507
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 26.8127,
+        "fMSE": 380.9647,
+        "PSNR": 36.5375,
+        "fPSNR": 23.8178,
+        "SSIM": 0.9867,
+        "fSSIM": 0.8903,
+        "fDeltaE76": 9.1381
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 49.4718,
+        "fMSE": 555.4454,
+        "PSNR": 34.2945,
+        "fPSNR": 22.1265,
+        "SSIM": 0.9819,
+        "fSSIM": 0.8731,
+        "fDeltaE76": 11.6966
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 97.9997,
+        "fMSE": 921.1204,
+        "PSNR": 31.979,
+        "fPSNR": 20.3378,
+        "SSIM": 0.9733,
+        "fSSIM": 0.8329,
+        "fDeltaE76": 15.0146
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 11.1013,
+        "fMSE": 449.858,
+        "PSNR": 38.9042,
+        "fPSNR": 23.0674,
+        "SSIM": 0.9922,
+        "fSSIM": 0.8784,
+        "fDeltaE76": 9.8664
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 15.0885,
+        "fMSE": 639.7133,
+        "PSNR": 37.4773,
+        "fPSNR": 21.3853,
+        "SSIM": 0.9914,
+        "fSSIM": 0.8617,
+        "fDeltaE76": 12.7186
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 25.959,
+        "fMSE": 1094.4755,
+        "PSNR": 35.5744,
+        "fPSNR": 19.3748,
+        "SSIM": 0.989,
+        "fSSIM": 0.8132,
+        "fDeltaE76": 16.6549
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 46.1607,
+        "fMSE": 296.125,
+        "PSNR": 33.623,
+        "fPSNR": 24.7419,
+        "SSIM": 0.98,
+        "fSSIM": 0.905,
+        "fDeltaE76": 8.2411
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 83.7438,
+        "fMSE": 471.4503,
+        "PSNR": 31.122,
+        "fPSNR": 22.8653,
+        "SSIM": 0.9724,
+        "fSSIM": 0.8845,
+        "fDeltaE76": 10.678
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 156.7879,
+        "fMSE": 779.6554,
+        "PSNR": 29.0451,
+        "fPSNR": 21.1235,
+        "SSIM": 0.9605,
+        "fSSIM": 0.849,
+        "fDeltaE76": 13.6761
+      }
+    },
+    "_meta": {
+      "slug": "R1_rainnet_blind_fair",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/RainNet_Pretrained/RainNet_net_G_last.pth",
+      "gt_bg_input": false,
+      "gt_bg_output": false,
+      "tensor2im_uint8": false,
+      "fair_blind": true,
+      "total_params_M": 54.76,
+      "ms_per_img": 6.874
+    }
+  },
+  "R2. RainNet — GT-BG In + Fair Comp BG": {
+    "all": {
+      "n": 7404,
+      "MSE": 48.7439,
+      "fMSE": 531.4362,
+      "PSNR": 34.8318,
+      "fPSNR": 22.7397,
+      "SSIM": 0.9816,
+      "fSSIM": 0.873,
+      "fDeltaE76": 11.0691
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 34.844,
+      "fMSE": 566.3033,
+      "PSNR": 35.4944,
+      "fPSNR": 22.1147,
+      "SSIM": 0.9867,
+      "fSSIM": 0.8752,
+      "fDeltaE76": 11.7037
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 46.789,
+      "fMSE": 335.5188,
+      "PSNR": 35.0746,
+      "fPSNR": 24.9084,
+      "SSIM": 0.9765,
+      "fSSIM": 0.8844,
+      "fDeltaE76": 8.5921
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 125.4254,
+      "fMSE": 808.6454,
+      "PSNR": 30.7057,
+      "fPSNR": 20.6775,
+      "SSIM": 0.9701,
+      "fSSIM": 0.8547,
+      "fDeltaE76": 13.9786
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 50.7241,
+      "fMSE": 864.6421,
+      "PSNR": 35.2369,
+      "fPSNR": 20.4799,
+      "SSIM": 0.9739,
+      "fSSIM": 0.7307,
+      "fDeltaE76": 12.7482
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 15.0397,
+        "fMSE": 619.6228,
+        "PSNR": 37.8368,
+        "fPSNR": 21.9192,
+        "SSIM": 0.9912,
+        "fSSIM": 0.8607,
+        "fDeltaE76": 12.0035
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 82.4662,
+        "fMSE": 443.2019,
+        "PSNR": 31.8251,
+        "fPSNR": 23.5605,
+        "SSIM": 0.972,
+        "fSSIM": 0.8853,
+        "fDeltaE76": 10.1343
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 25.72,
+        "fMSE": 366.174,
+        "PSNR": 36.7311,
+        "fPSNR": 24.0606,
+        "SSIM": 0.9869,
+        "fSSIM": 0.8924,
+        "fDeltaE76": 8.8874
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 44.3882,
+        "fMSE": 500.8004,
+        "PSNR": 34.7242,
+        "fPSNR": 22.6267,
+        "SSIM": 0.9825,
+        "fSSIM": 0.8784,
+        "fDeltaE76": 11.0424
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 76.1234,
+        "fMSE": 727.3342,
+        "PSNR": 33.04,
+        "fPSNR": 21.5317,
+        "SSIM": 0.9755,
+        "fSSIM": 0.8482,
+        "fDeltaE76": 13.2776
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 10.7633,
+        "fMSE": 434.5852,
+        "PSNR": 39.0565,
+        "fPSNR": 23.286,
+        "SSIM": 0.9922,
+        "fSSIM": 0.8806,
+        "fDeltaE76": 9.6092
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 13.8574,
+        "fMSE": 581.4573,
+        "PSNR": 37.8263,
+        "fPSNR": 21.8402,
+        "SSIM": 0.9916,
+        "fSSIM": 0.8674,
+        "fDeltaE76": 12.0226
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 21.6051,
+        "fMSE": 889.2721,
+        "PSNR": 36.3505,
+        "fPSNR": 20.3286,
+        "SSIM": 0.9896,
+        "fSSIM": 0.829,
+        "fDeltaE76": 14.9228
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 44.1386,
+        "fMSE": 281.9281,
+        "PSNR": 33.8675,
+        "fPSNR": 25.0146,
+        "SSIM": 0.9804,
+        "fSSIM": 0.907,
+        "fDeltaE76": 7.9986
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 74.8202,
+        "fMSE": 420.4044,
+        "PSNR": 31.6321,
+        "fPSNR": 23.4106,
+        "SSIM": 0.9734,
+        "fSSIM": 0.8894,
+        "fDeltaE76": 10.0653
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 120.6126,
+        "fMSE": 595.1861,
+        "PSNR": 30.3385,
+        "fPSNR": 22.5134,
+        "SSIM": 0.964,
+        "fSSIM": 0.8639,
+        "fDeltaE76": 11.935
+      }
+    },
+    "_meta": {
+      "slug": "R2_rainnet_gtbg_in_fair_bg",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/RainNet_Pretrained/RainNet_net_G_last.pth",
+      "gt_bg_input": true,
+      "gt_bg_output": false,
+      "tensor2im_uint8": false,
+      "fair_blind": false,
+      "total_params_M": 54.76,
+      "ms_per_img": 8.296
+    }
+  },
+  "R3. RainNet — Official Repo (Float32, GT-BG*)": {
+    "all": {
+      "n": 7404,
+      "MSE": 46.7554,
+      "fMSE": 531.4362,
+      "PSNR": 35.615,
+      "fPSNR": 22.7397,
+      "SSIM": 0.9868,
+      "fSSIM": 0.8742,
+      "fDeltaE76": 11.0691
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 32.7877,
+      "fMSE": 566.3033,
+      "PSNR": 36.3178,
+      "fPSNR": 22.1147,
+      "SSIM": 0.9911,
+      "fSSIM": 0.8755,
+      "fDeltaE76": 11.7037
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 44.8945,
+      "fMSE": 335.5188,
+      "PSNR": 35.9536,
+      "fPSNR": 24.9084,
+      "SSIM": 0.9834,
+      "fSSIM": 0.8879,
+      "fDeltaE76": 8.5921
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 123.4296,
+      "fMSE": 808.6454,
+      "PSNR": 31.0679,
+      "fPSNR": 20.6775,
+      "SSIM": 0.9742,
+      "fSSIM": 0.8545,
+      "fDeltaE76": 13.9786
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 49.4382,
+      "fMSE": 864.6421,
+      "PSNR": 35.7905,
+      "fPSNR": 20.4799,
+      "SSIM": 0.9795,
+      "fSSIM": 0.7328,
+      "fDeltaE76": 12.7482
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 13.0727,
+        "fMSE": 619.6228,
+        "PSNR": 39.0498,
+        "fPSNR": 21.9192,
+        "SSIM": 0.9961,
+        "fSSIM": 0.862,
+        "fDeltaE76": 12.0035
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 80.4563,
+        "fMSE": 443.2019,
+        "PSNR": 32.1784,
+        "fPSNR": 23.5605,
+        "SSIM": 0.9774,
+        "fSSIM": 0.8865,
+        "fDeltaE76": 10.1343
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 23.984,
+        "fMSE": 366.174,
+        "PSNR": 37.7186,
+        "fPSNR": 24.0606,
+        "SSIM": 0.9914,
+        "fSSIM": 0.8932,
+        "fDeltaE76": 8.8874
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 42.4978,
+        "fMSE": 500.8004,
+        "PSNR": 35.4558,
+        "fPSNR": 22.6267,
+        "SSIM": 0.9873,
+        "fSSIM": 0.8792,
+        "fDeltaE76": 11.0424
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 73.7844,
+        "fMSE": 727.3342,
+        "PSNR": 33.6705,
+        "fPSNR": 21.5317,
+        "SSIM": 0.9815,
+        "fSSIM": 0.8503,
+        "fDeltaE76": 13.2776
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 8.9842,
+        "fMSE": 434.5851,
+        "PSNR": 40.5022,
+        "fPSNR": 23.286,
+        "SSIM": 0.9968,
+        "fSSIM": 0.8816,
+        "fDeltaE76": 9.6092
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 11.9162,
+        "fMSE": 581.4573,
+        "PSNR": 38.9879,
+        "fPSNR": 21.8402,
+        "SSIM": 0.9964,
+        "fSSIM": 0.8683,
+        "fDeltaE76": 12.0226
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 19.3786,
+        "fMSE": 889.2721,
+        "PSNR": 37.3348,
+        "fPSNR": 20.3286,
+        "SSIM": 0.9951,
+        "fSSIM": 0.8309,
+        "fDeltaE76": 14.9228
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 42.4557,
+        "fMSE": 281.9281,
+        "PSNR": 34.2908,
+        "fPSNR": 25.0146,
+        "SSIM": 0.9848,
+        "fSSIM": 0.9075,
+        "fDeltaE76": 7.9986
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 72.9804,
+        "fMSE": 420.4044,
+        "PSNR": 31.9353,
+        "fPSNR": 23.4106,
+        "SSIM": 0.9783,
+        "fSSIM": 0.8902,
+        "fDeltaE76": 10.0653
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 118.1817,
+        "fMSE": 595.1861,
+        "PSNR": 30.6803,
+        "fPSNR": 22.5134,
+        "SSIM": 0.9705,
+        "fSSIM": 0.8661,
+        "fDeltaE76": 11.935
+      }
+    },
+    "_meta": {
+      "slug": "R3_rainnet_official_float32",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/RainNet_Pretrained/RainNet_net_G_last.pth",
+      "gt_bg_input": true,
+      "gt_bg_output": true,
+      "tensor2im_uint8": false,
+      "fair_blind": false,
+      "total_params_M": 54.76,
+      "ms_per_img": 6.971
+    }
+  },
+  "R4. RainNet — Official evaluate.py (uint8, GT-BG*)": {
+    "all": {
+      "n": 7404,
+      "MSE": 47.2711,
+      "fMSE": 536.6326,
+      "PSNR": 35.5694,
+      "fPSNR": 22.6941,
+      "SSIM": 0.9865,
+      "fSSIM": 0.872,
+      "fDeltaE76": 11.1271
+    },
+    "HCOCO": {
+      "n": 4283,
+      "MSE": 33.1312,
+      "fMSE": 571.96,
+      "PSNR": 36.2722,
+      "fPSNR": 22.0691,
+      "SSIM": 0.9909,
+      "fSSIM": 0.8734,
+      "fDeltaE76": 11.7589
+    },
+    "HAdobe5k": {
+      "n": 2160,
+      "MSE": 45.225,
+      "fMSE": 338.2185,
+      "PSNR": 35.9103,
+      "fPSNR": 24.8651,
+      "SSIM": 0.983,
+      "fSSIM": 0.8855,
+      "fDeltaE76": 8.642
+    },
+    "HFlickr": {
+      "n": 828,
+      "MSE": 125.3174,
+      "fMSE": 817.4705,
+      "PSNR": 31.0136,
+      "fPSNR": 20.6232,
+      "SSIM": 0.9736,
+      "fSSIM": 0.8517,
+      "fDeltaE76": 14.07
+    },
+    "Hday2night": {
+      "n": 133,
+      "MSE": 49.9687,
+      "fMSE": 872.9773,
+      "PSNR": 35.766,
+      "fPSNR": 20.4555,
+      "SSIM": 0.9795,
+      "fSSIM": 0.7321,
+      "fDeltaE76": 12.8196
+    },
+    "by_mask_group": {
+      "small": {
+        "n": 3703,
+        "MSE": 13.197,
+        "fMSE": 625.0997,
+        "PSNR": 39.0092,
+        "fPSNR": 21.8787,
+        "SSIM": 0.9961,
+        "fSSIM": 0.8601,
+        "fDeltaE76": 12.0593
+      },
+      "large": {
+        "n": 3701,
+        "MSE": 81.3637,
+        "fMSE": 448.1177,
+        "PSNR": 32.1278,
+        "fPSNR": 23.5099,
+        "SSIM": 0.9768,
+        "fSSIM": 0.8839,
+        "fDeltaE76": 10.1945
+      }
+    },
+    "by_color_group": {
+      "low": {
+        "n": 2468,
+        "MSE": 24.3395,
+        "fMSE": 370.39,
+        "PSNR": 37.6649,
+        "fPSNR": 24.0068,
+        "SSIM": 0.9912,
+        "fSSIM": 0.8909,
+        "fDeltaE76": 8.9348
+      },
+      "medium": {
+        "n": 2468,
+        "MSE": 43.006,
+        "fMSE": 505.9633,
+        "PSNR": 35.4103,
+        "fPSNR": 22.5811,
+        "SSIM": 0.987,
+        "fSSIM": 0.8772,
+        "fDeltaE76": 11.1018
+      },
+      "high": {
+        "n": 2468,
+        "MSE": 74.468,
+        "fMSE": 733.5446,
+        "PSNR": 33.6332,
+        "fPSNR": 21.4944,
+        "SSIM": 0.9811,
+        "fSSIM": 0.8479,
+        "fDeltaE76": 13.3447
+      }
+    },
+    "by_joint_group": {
+      "small_low": {
+        "n": 1362,
+        "MSE": 9.0839,
+        "fMSE": 438.818,
+        "PSNR": 40.4597,
+        "fPSNR": 23.2435,
+        "SSIM": 0.9967,
+        "fSSIM": 0.8795,
+        "fDeltaE76": 9.651
+      },
+      "small_medium": {
+        "n": 1232,
+        "MSE": 12.033,
+        "fMSE": 586.7751,
+        "PSNR": 38.9454,
+        "fPSNR": 21.7977,
+        "SSIM": 0.9963,
+        "fSSIM": 0.8666,
+        "fDeltaE76": 12.0826
+      },
+      "small_high": {
+        "n": 1109,
+        "MSE": 19.5416,
+        "fMSE": 896.4538,
+        "PSNR": 37.2988,
+        "fPSNR": 20.2925,
+        "SSIM": 0.995,
+        "fSSIM": 0.8289,
+        "fDeltaE76": 14.9909
+      },
+      "large_low": {
+        "n": 1106,
+        "MSE": 43.1262,
+        "fMSE": 286.1235,
+        "PSNR": 34.2232,
+        "fPSNR": 24.9469,
+        "SSIM": 0.9844,
+        "fSSIM": 0.9048,
+        "fDeltaE76": 8.0529
+      },
+      "large_medium": {
+        "n": 1236,
+        "MSE": 73.8786,
+        "fMSE": 425.4131,
+        "PSNR": 31.8866,
+        "fPSNR": 23.362,
+        "SSIM": 0.9778,
+        "fSSIM": 0.8877,
+        "fDeltaE76": 10.1241
+      },
+      "large_high": {
+        "n": 1359,
+        "MSE": 119.2902,
+        "fMSE": 600.6039,
+        "PSNR": 30.6419,
+        "fPSNR": 22.4751,
+        "SSIM": 0.9698,
+        "fSSIM": 0.8634,
+        "fDeltaE76": 12.0013
+      }
+    },
+    "_meta": {
+      "slug": "R4_rainnet_official_evaluate_uint8",
+      "checkpoint": "/content/drive/MyDrive/ImageHarmonization/runs/RainNet_Pretrained/RainNet_net_G_last.pth",
+      "gt_bg_input": true,
+      "gt_bg_output": true,
+      "tensor2im_uint8": true,
+      "fair_blind": false,
+      "total_params_M": 54.76,
+      "ms_per_img": 7.035
+    }
+  }
+}

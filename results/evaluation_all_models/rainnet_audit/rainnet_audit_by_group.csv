@@ -1,0 +1,55 @@
+Protocol,Joint_Group,n,MSE,fMSE,PSNR,fPSNR,SSIM,fSSIM,fDeltaE76
+R1. RainNet — Blind (KHÔNG gian lận),small_low,1362,11.1013,449.858,38.9042,23.0674,0.9922,0.8784,9.8664
+R1. RainNet — Blind (KHÔNG gian lận),small_medium,1232,15.0885,639.7133,37.4773,21.3853,0.9914,0.8617,12.7186
+R1. RainNet — Blind (KHÔNG gian lận),small_high,1109,25.959,1094.4755,35.5744,19.3748,0.989,0.8132,16.6549
+R1. RainNet — Blind (KHÔNG gian lận),large_low,1106,46.1607,296.125,33.623,24.7419,0.98,0.905,8.2411
+R1. RainNet — Blind (KHÔNG gian lận),large_medium,1236,83.7438,471.4503,31.122,22.8653,0.9724,0.8845,10.678
+R1. RainNet — Blind (KHÔNG gian lận),large_high,1359,156.7879,779.6554,29.0451,21.1235,0.9605,0.849,13.6761
+R2. RainNet — GT-BG In + Fair Comp BG,small_low,1362,10.7633,434.5852,39.0565,23.286,0.9922,0.8806,9.6092
+R2. RainNet — GT-BG In + Fair Comp BG,small_medium,1232,13.8574,581.4573,37.8263,21.8402,0.9916,0.8674,12.0226
+R2. RainNet — GT-BG In + Fair Comp BG,small_high,1109,21.6051,889.2721,36.3505,20.3286,0.9896,0.829,14.9228
+R2. RainNet — GT-BG In + Fair Comp BG,large_low,1106,44.1386,281.9281,33.8675,25.0146,0.9804,0.907,7.9986
+R2. RainNet — GT-BG In + Fair Comp BG,large_medium,1236,74.8202,420.4044,31.6321,23.4106,0.9734,0.8894,10.0653
+R2. RainNet — GT-BG In + Fair Comp BG,large_high,1359,120.6126,595.1861,30.3385,22.5134,0.964,0.8639,11.935
+"R3. RainNet — Official Repo (Float32, GT-BG*)",small_low,1362,8.9842,434.5851,40.5022,23.286,0.9968,0.8816,9.6092
+"R3. RainNet — Official Repo (Float32, GT-BG*)",small_medium,1232,11.9162,581.4573,38.9879,21.8402,0.9964,0.8683,12.0226
+"R3. RainNet — Official Repo (Float32, GT-BG*)",small_high,1109,19.3786,889.2721,37.3348,20.3286,0.9951,0.8309,14.9228
+"R3. RainNet — Official Repo (Float32, GT-BG*)",large_low,1106,42.4557,281.9281,34.2908,25.0146,0.9848,0.9075,7.9986
+"R3. RainNet — Official Repo (Float32, GT-BG*)",large_medium,1236,72.9804,420.4044,31.9353,23.4106,0.9783,0.8902,10.0653
+"R3. RainNet — Official Repo (Float32, GT-BG*)",large_high,1359,118.1817,595.1861,30.6803,22.5134,0.9705,0.8661,11.935
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",small_low,1362,9.0839,438.818,40.4597,23.2435,0.9967,0.8795,9.651
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",small_medium,1232,12.033,586.7751,38.9454,21.7977,0.9963,0.8666,12.0826
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",small_high,1109,19.5416,896.4538,37.2988,20.2925,0.995,0.8289,14.9909
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",large_low,1106,43.1262,286.1235,34.2232,24.9469,0.9844,0.9048,8.0529
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",large_medium,1236,73.8786,425.4131,31.8866,23.362,0.9778,0.8877,10.1241
+"R4. RainNet — Official evaluate.py (uint8, GT-BG*)",large_high,1359,119.2902,600.6039,30.6419,22.4751,0.9698,0.8634,12.0013
+Ref0. Input Composite (No Harm),small_low,1362,9.4603,351.9698,39.2827,23.5382,0.9925,0.8932,8.6238
+Ref0. Input Composite (No Harm),small_medium,1232,21.7845,905.2763,35.741,19.2715,0.9906,0.8455,14.5727
+Ref0. Input Composite (No Harm),small_high,1109,59.0239,2459.993,31.8388,15.1597,0.9862,0.7396,24.2508
+Ref0. Input Composite (No Harm),large_low,1106,58.5888,371.434,32.2285,23.2315,0.9774,0.8901,8.9615
+Ref0. Input Composite (No Harm),large_medium,1236,185.1624,973.1003,27.3076,18.8898,0.9629,0.8405,14.7488
+Ref0. Input Composite (No Harm),large_high,1359,648.4958,3039.4492,22.3985,14.2763,0.9328,0.7374,25.5503
+Ref. 1. Baseline U-Net (Full L1),small_low,1362,8.3548,308.1674,40.0344,24.5819,0.9929,0.9042,8.419
+Ref. 1. Baseline U-Net (Full L1),small_medium,1232,13.9153,561.3564,37.9167,21.9593,0.9918,0.8771,11.9168
+Ref. 1. Baseline U-Net (Full L1),small_high,1109,25.6522,1062.0679,35.6719,19.5223,0.9894,0.8269,16.7733
+Ref. 1. Baseline U-Net (Full L1),large_low,1106,46.9687,292.9652,33.7695,24.941,0.981,0.9113,8.0795
+Ref. 1. Baseline U-Net (Full L1),large_medium,1236,90.3184,491.3409,31.1356,22.8984,0.9733,0.8898,10.947
+Ref. 1. Baseline U-Net (Full L1),large_high,1359,167.8089,823.4018,29.1462,21.2707,0.9623,0.8597,14.2524
+Ref. 2. Baseline U-Net (Masked L1),small_low,1362,7.146,253.4568,40.7123,25.6734,0.9934,0.9222,7.4695
+Ref. 2. Baseline U-Net (Masked L1),small_medium,1232,10.4729,402.48,39.0181,23.4424,0.9926,0.9049,10.3502
+Ref. 2. Baseline U-Net (Masked L1),small_high,1109,16.747,683.4484,37.3669,21.6267,0.9908,0.8698,13.838
+Ref. 2. Baseline U-Net (Masked L1),large_low,1106,34.588,206.219,35.1125,26.4485,0.9843,0.9317,7.0927
+Ref. 2. Baseline U-Net (Masked L1),large_medium,1236,67.2375,356.1255,32.4576,24.3262,0.9775,0.9117,9.7099
+Ref. 2. Baseline U-Net (Masked L1),large_high,1359,107.3788,517.2271,31.0792,23.3667,0.9697,0.8916,11.9655
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),small_low,1362,6.9509,245.7555,40.8757,25.9503,0.9935,0.9254,7.2695
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),small_medium,1232,9.9063,380.7319,39.3077,23.8619,0.9928,0.9103,9.9935
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),small_high,1109,15.7702,630.9467,37.6448,22.0138,0.991,0.878,13.3218
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),large_low,1106,29.3283,184.0909,35.5303,26.8954,0.9856,0.937,6.7647
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),large_medium,1236,58.2784,314.2036,32.944,24.8586,0.9792,0.9186,9.2865
+Ref. 6. Improved U-Net v3 (DINOv2 + Lab),large_high,1359,95.9497,471.9088,31.5003,23.8219,0.9715,0.8978,11.4968
+Ref. 8. HT+ Pretrained (HT_2H9L),small_low,1362,7.7696,274.2496,40.5693,25.5057,0.9933,0.9202,7.3841
+Ref. 8. HT+ Pretrained (HT_2H9L),small_medium,1232,11.3721,433.328,38.9878,23.4342,0.9924,0.9011,10.0593
+Ref. 8. HT+ Pretrained (HT_2H9L),small_high,1109,16.6932,683.2052,37.4362,21.7046,0.9907,0.8671,13.219
+Ref. 8. HT+ Pretrained (HT_2H9L),large_low,1106,33.9336,209.8868,35.2959,26.6571,0.9847,0.9327,6.7653
+Ref. 8. HT+ Pretrained (HT_2H9L),large_medium,1236,54.9007,307.5137,33.0524,24.9507,0.9787,0.9159,8.7756
+Ref. 8. HT+ Pretrained (HT_2H9L),large_high,1359,95.3416,474.4674,31.2763,23.5268,0.9696,0.8885,11.3642
