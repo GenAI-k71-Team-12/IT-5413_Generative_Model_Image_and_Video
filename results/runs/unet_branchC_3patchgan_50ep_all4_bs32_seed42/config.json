@@ -1,0 +1,29 @@
+{
+  "cfg": {
+    "branch": "C",
+    "seed": 42,
+    "start_epoch": 30,
+    "total_epochs": 50,
+    "extra_epochs": 20,
+    "size": 256,
+    "batch_size": 32,
+    "workers": 2,
+    "base_channels": 32,
+    "num_D": 3,
+    "ndf": 64,
+    "lr_G": 5e-05,
+    "lr_D": 0.0001,
+    "eta_min": 1e-06,
+    "lambda_l1": 100.0,
+    "real_label": 0.9,
+    "n_critic_warmup_epochs": 3,
+    "val_fraction": 0.05,
+    "loss": "masked_l1_plus_3_multiscale_patchgan",
+    "architecture": "unet_groupnorm_v1_sn_multiscale_patchgan"
+  },
+  "fingerprint": "aad71bde27817a76a2ab959e795b0798dff7fe526c5fe16ec6663e43e79de6be",
+  "source_ckpt": "/content/drive/MyDrive/ImageHarmonization/runs/unet_masked_l1_50ep_all4_bs32_seed42/best_30ep.pt",
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130",
+  "python": "3.13.16"
+}

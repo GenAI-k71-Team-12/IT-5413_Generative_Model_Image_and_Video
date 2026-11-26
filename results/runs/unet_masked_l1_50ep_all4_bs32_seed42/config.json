@@ -1,0 +1,30 @@
+{
+  "cfg": {
+    "seed": 42,
+    "epochs": 50,
+    "checkpoint_milestone": 30,
+    "size": 256,
+    "batch_size": 32,
+    "workers": 2,
+    "base_channels": 32,
+    "lr": 0.0003,
+    "eta_min": 1e-06,
+    "val_fraction": 0.05,
+    "loss": "masked_l1",
+    "architecture": "unet_groupnorm_v1"
+  },
+  "fingerprint": "aad71bde27817a76a2ab959e795b0798dff7fe526c5fe16ec6663e43e79de6be",
+  "official_counts": {
+    "HCOCO_train": 38545,
+    "HCOCO_test": 4283,
+    "HAdobe5k_train": 19437,
+    "HAdobe5k_test": 2160,
+    "HFlickr_train": 7449,
+    "HFlickr_test": 828,
+    "Hday2night_train": 311,
+    "Hday2night_test": 133
+  },
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130",
+  "python": "3.13.16"
+}
